@@ -10,6 +10,9 @@ COPY . .
 
 # Install dependencies (no caching to keep image small)
 RUN pip install --no-cache-dir -r requirements.txt
+# Install pytest and run tests during build
+#RUN pip install --no-cache-dir pytest && pytest tests/ -v --disable-warnings
+
 
 #Tell Docker about the port
 EXPOSE 5000

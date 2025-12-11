@@ -1,0 +1,8 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+pythonpath = "." # adds project root to sys.path-imports 
+testpaths = ["tests"] # auto-discover tests
+addopts = "-v --disable-warnings" # verbose output, no noise
