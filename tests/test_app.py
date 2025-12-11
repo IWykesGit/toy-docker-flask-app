@@ -1,5 +1,5 @@
 import pytest
-from app import app # import flask app to test
+from main import app # import flask app to test
 
 @pytest.fixture
 def client(): # Fixture: sets up a fake browser for tests (no real server)
