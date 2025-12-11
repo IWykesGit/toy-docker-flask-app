@@ -6,6 +6,7 @@
 A minimal "Hello World" Flask web app, fully Dockerized and tested with pytest. Demonstrates production basics: containerization, automated tests, and clean imports.
 
 *Browser view at localhost:5000 + green pytest output.*
+
 ![Demo Screenshot](toy-docker-flask-app-screenshot.png)
 ![Pytest Screenshot](pytest-report-screenshot.png)
 
