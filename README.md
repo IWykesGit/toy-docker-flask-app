@@ -14,7 +14,7 @@ A minimal "Hello World" Flask web app, fully Dockerized and tested with pytest. 
 - Simple Flask endpoint: Returns "Docker rocks - next: SpaceX RAG! 🌌".
 - Docker build/run with integrated tests (runs pytest during build).
 - Pytest suite: Covers status codes, content, and emojis (Unicode-safe).
-- pyproject.toml config: No import hacks—`from main import app` works everywhere.
+- pyproject.toml config: No import hacks - `from main import app` works everywhere.
 
 ## Quick Start
 
